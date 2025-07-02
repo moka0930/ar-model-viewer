@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const scene = document.querySelector('a-scene');
     scene.addEventListener('loaded', function () {
         setTimeout(() => {
-            loadingScreen.classList.add('hidden');
+        loadingScreen.classList.add('hidden');
         }, 1000);
     });
 
